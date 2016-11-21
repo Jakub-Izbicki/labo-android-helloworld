@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Labo-HelloWorld.iml" filepath="$PROJECT_DIR$/Labo-HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labo-android-helloworld.iml" filepath="$PROJECT_DIR$/labo-android-helloworld.iml" />
     </modules>
   </component>
 </project>
