@@ -8,4 +8,6 @@
     <string name="flight_passengers_adults">Pasażerowie dorośli: </string>
     <string name="flight_passengers_children">Pasażerowie dzieci: </string>
     <string name="flight_search">Wyszukaj lot</string>
+    <string name="title_activity_pop_up_pick_date">PopUpPickDate</string>
+    <string name="OK">OK</string>
 </resources>
