@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Samsung Labo</string>
+    <string name="flight_from">Z: </string>
+    <string name="flight_to">Do: </string>
+    <string name="flight_two_ways">Lot w dwie strony</string>
+    <string name="flight_one_way">Lot w jedną stronę</string>
+    <string name="flight_departure_date">Data wylotu</string>
+    <string name="flight_passengers_adults">Pasażerowie dorośli: </string>
+    <string name="flight_passengers_children">Pasażerowie dzieci: </string>
+    <string name="flight_search">Wyszukaj lot</string>
 </resources>

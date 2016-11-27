@@ -19,16 +19,57 @@
         android:orientation="horizontal">
 
         <TextView
-            android:text="To:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/to" />
-
+            android:text="@string/flight_from"/>
         <EditText
-            android:text="test"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flight_to"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
     </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:text="@string/flight_one_way"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:text="@string/flight_two_ways"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flight_departure_date"/>
+
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/datePicker"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,29 +77,32 @@
         android:orientation="horizontal">
 
         <TextView
-            android:text="Subject:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/subject" />
-
+            android:text="@string/flight_passengers_adults"/>
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flight_passengers_children"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number" />
+
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Message:"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="top"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send"/>
+        android:text="@string/flight_search"/>
+
 
 
 </LinearLayout>
